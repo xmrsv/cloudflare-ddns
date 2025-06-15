@@ -3,7 +3,7 @@ auth_email="CLOUDFLARE_EMAIL"
 auth_key="GLOBAL_API_KEY"
 zone_identifier="ZONE_ID"
 record_name="DOMAIN"
-proxy=true
+proxy=false
 
 log() {
     if [ "$1" ]; then
